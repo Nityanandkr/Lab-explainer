@@ -1,1 +1,6 @@
+# Don't rewrite API paths — let them 404 naturally so the app can fall back
+/experiments/*  /experiments/:splat  404
+/api/*          /api/:splat          404
+
+# SPA fallback: serve index.html for all other routes
 /*    /index.html   200

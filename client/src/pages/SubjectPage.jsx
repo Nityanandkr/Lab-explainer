@@ -33,11 +33,20 @@ export default function SubjectPage() {
   const [reqSent, setReqSent] = useState(false);
 
   useEffect(() => {
+    // Try the live API first, but fall back to bundled static data
+    // for serverless deploys like Netlify where no backend is running.
+    const localExps = staticData.experiments.filter(e => e.subject === subject);
+
     axios.get(`/experiments?subject=${subject}`)
-      .then(res => setExperiments(res.data))
+      .then(res => {
+        // Guard: Netlify's _redirects may serve index.html (string) instead of JSON
+        if (Array.isArray(res.data)) {
+          setExperiments(res.data);
+        } else {
+          setExperiments(localExps);
+        }
+      })
       .catch(() => {
-        // Fallback for static deploys (like Netlify) without a running backend
-        const localExps = staticData.experiments.filter(e => e.subject === subject);
         setExperiments(localExps);
       });
   }, [subject]);
