@@ -1,0 +1,138 @@
+{
+  "experiments": [
+    {
+      "id": "chem-001",
+      "title": "Metals, Non-Metals & Reactions",
+      "description": "Explore how metals and non-metals react with acids, bases, and water. Perform displacement reactions, neutralization, and combustion experiments in a virtual lab.",
+      "subject": "chemistry",
+      "classLevel": [6, 7, 8, 9, 10, 11, 12],
+      "difficulty": "Intermediate",
+      "status": "Live",
+      "tags": ["metals", "non-metals", "acids", "bases", "reactions", "displacement", "neutralization"],
+      "image": "beaker",
+      "featured": true
+    },
+    {
+      "id": "chem-002",
+      "title": "Acid-Base Titration",
+      "description": "Learn the art of titration by carefully neutralizing acids and bases. Observe pH changes with indicators and calculate concentration.",
+      "subject": "chemistry",
+      "classLevel": [9, 10, 11, 12],
+      "difficulty": "Advanced",
+      "status": "Coming Soon",
+      "tags": ["titration", "acid", "base", "pH", "indicators", "neutralization"],
+      "image": "flask"
+    },
+    {
+      "id": "chem-003",
+      "title": "States of Matter",
+      "description": "Observe how heating and cooling change the state of different substances. Understand melting, boiling, sublimation, and condensation.",
+      "subject": "chemistry",
+      "classLevel": [6, 7, 8],
+      "difficulty": "Beginner",
+      "status": "Coming Soon",
+      "tags": ["states", "matter", "solid", "liquid", "gas", "heating", "cooling"],
+      "image": "thermometer"
+    },
+    {
+      "id": "chem-004",
+      "title": "Electrochemistry & Electrolysis",
+      "description": "Build electrochemical cells, understand electrode reactions, and perform electrolysis of water and salt solutions.",
+      "subject": "chemistry",
+      "classLevel": [10, 11, 12],
+      "difficulty": "Advanced",
+      "status": "Coming Soon",
+      "tags": ["electrolysis", "electrochemistry", "redox", "cells", "electrodes"],
+      "image": "battery"
+    },
+    {
+      "id": "chem-005",
+      "title": "Periodic Table Explorer",
+      "description": "Interactive periodic table with element properties, electron configurations, and trend visualization across periods and groups.",
+      "subject": "chemistry",
+      "classLevel": [8, 9, 10, 11, 12],
+      "difficulty": "Beginner",
+      "status": "Coming Soon",
+      "tags": ["periodic table", "elements", "properties", "electron configuration"],
+      "image": "atom"
+    },
+    {
+      "id": "phys-001",
+      "title": "Newton's Laws Simulator",
+      "description": "Experiment with forces, mass, and acceleration. Build ramps, pulleys, and collision scenarios to understand Newton's three laws.",
+      "subject": "physics",
+      "classLevel": [8, 9, 10, 11],
+      "difficulty": "Intermediate",
+      "status": "Coming Soon",
+      "tags": ["newton", "forces", "motion", "acceleration", "laws"],
+      "image": "pendulum"
+    },
+    {
+      "id": "phys-002",
+      "title": "Optics & Light",
+      "description": "Explore reflection, refraction, lenses, and mirrors. Build optical instruments and understand image formation.",
+      "subject": "physics",
+      "classLevel": [7, 8, 9, 10],
+      "difficulty": "Intermediate",
+      "status": "Coming Soon",
+      "tags": ["light", "optics", "reflection", "refraction", "lenses", "mirrors"],
+      "image": "prism"
+    },
+    {
+      "id": "phys-003",
+      "title": "Electricity & Circuits",
+      "description": "Build circuits with resistors, capacitors, and LEDs. Measure voltage, current, and resistance using virtual multimeters.",
+      "subject": "physics",
+      "classLevel": [8, 9, 10, 11, 12],
+      "difficulty": "Intermediate",
+      "status": "Coming Soon",
+      "tags": ["electricity", "circuits", "resistance", "voltage", "current"],
+      "image": "circuit"
+    },
+    {
+      "id": "phys-004",
+      "title": "Wave Motion & Sound",
+      "description": "Visualize transverse and longitudinal waves. Experiment with frequency, amplitude, and wavelength. Explore sound waves and resonance.",
+      "subject": "physics",
+      "classLevel": [9, 10, 11],
+      "difficulty": "Beginner",
+      "status": "Coming Soon",
+      "tags": ["waves", "sound", "frequency", "amplitude", "resonance"],
+      "image": "wave"
+    },
+    {
+      "id": "cs-001",
+      "title": "Sorting Algorithm Visualizer",
+      "description": "Watch bubble sort, merge sort, quick sort, and more in action. Compare time complexities and understand algorithmic efficiency.",
+      "subject": "cs",
+      "classLevel": [9, 10, 11, 12],
+      "difficulty": "Intermediate",
+      "status": "Coming Soon",
+      "tags": ["sorting", "algorithms", "bubble sort", "merge sort", "quick sort"],
+      "image": "code"
+    },
+    {
+      "id": "cs-002",
+      "title": "Binary & Logic Gates",
+      "description": "Build logic circuits with AND, OR, NOT, XOR gates. Convert between binary, decimal, and hexadecimal number systems.",
+      "subject": "cs",
+      "classLevel": [8, 9, 10, 11],
+      "difficulty": "Beginner",
+      "status": "Coming Soon",
+      "tags": ["binary", "logic gates", "boolean", "digital circuits"],
+      "image": "chip"
+    },
+    {
+      "id": "cs-003",
+      "title": "Data Structures Playground",
+      "description": "Interact with arrays, linked lists, stacks, queues, trees, and graphs. Visualize operations in real-time.",
+      "subject": "cs",
+      "classLevel": [11, 12],
+      "difficulty": "Advanced",
+      "status": "Coming Soon",
+      "tags": ["data structures", "arrays", "linked lists", "trees", "graphs"],
+      "image": "tree"
+    }
+  ],
+  "submissions": []
+}
