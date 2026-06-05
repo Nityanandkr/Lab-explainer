@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiPlus, FiX, FiSend } from 'react-icons/fi';
 import axios from 'axios';
+import staticData from '../data/experiments.json';
 import SearchBar from '../components/SearchBar';
 import ExperimentCard from '../components/ExperimentCard';
 
@@ -34,7 +35,11 @@ export default function SubjectPage() {
   useEffect(() => {
     axios.get(`/experiments?subject=${subject}`)
       .then(res => setExperiments(res.data))
-      .catch(() => setExperiments([]));
+      .catch(() => {
+        // Fallback for static deploys (like Netlify) without a running backend
+        const localExps = staticData.experiments.filter(e => e.subject === subject);
+        setExperiments(localExps);
+      });
   }, [subject]);
 
   // Filter experiments
